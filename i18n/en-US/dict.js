@@ -11,8 +11,8 @@ module.exports = {
         "undergraduate": "(Bachelor's degree)"
     },
     link_type: {
-        "zhihu": "Zhihu",
-        "doubanbook": "Douban",
+//         "zhihu": "Zhihu",
+//         "doubanbook": "Douban",
         "repo": "Source",
         "pdf": "PDF"
     },

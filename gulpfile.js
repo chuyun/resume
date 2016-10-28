@@ -4,7 +4,9 @@ var plugins = require('gulp-load-plugins')();
 var path = require('path');
 var gls = require('gulp-live-server');
 
-var server = gls.static('dist', 8000);
+var server = gls.static('dist', 9001);
+
+var browserSync = require('browser-sync').create();
 
 /**************** Utility **********************/
 function highlight(str) {
@@ -90,7 +92,17 @@ gulp.task('build-for-deploy', ['jade', 'less', 'static']);
 
 /****************** Server ****************/
 gulp.task('serve', function () {
-  server.start();
+  // server.start();
+});
+
+
+// 静态服务器
+gulp.task('browser-sync', function() {
+  browserSync.init({
+    server: {
+      baseDir: "dist"
+    }
+  });
 });
 
 gulp.task('server', ['build', 'serve']);
@@ -103,4 +115,4 @@ gulp.task('deploy', ['build-for-deploy'], function() {
 });
 
 /****************** Default ****************/
-gulp.task('default', ['server', 'watch']);
+gulp.task('default', ['browser-sync', 'watch']);

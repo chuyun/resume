@@ -13,14 +13,14 @@ block education
           each honor in item.honor
             dd.education-honor!= highlight(honor)
 
-
-block language
-  +section("language", false)
-    each lang in language
-      +certificate(lang.certificate)
-      ul.language-description
-        each desc in lang.description
-          li.language-desc-item= desc
+//
+//block language
+//  +section("language", false)
+//    each lang in language
+//      +certificate(lang.certificate)
+//      ul.language-description
+//        each desc in lang.description
+//          li.language-desc-item= desc
 
 
 block experience
@@ -50,4 +50,4 @@ block links
 block repo
   p
     | This resume is generated with Gulp, Less and Jade by 
-    | #[a(href="https://github.com/joyeecheung/resume") Joyee Cheung&#39;s resume generator].
+    | #[a(href="https://github.com/chuyun/resume") chuyun&#39;s resume generator].
