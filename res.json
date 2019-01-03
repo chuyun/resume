@@ -86,7 +86,7 @@
             "使用`Unity`游戏开发引擎,搭建场景、建模、添加AI"
           ],
           "stack": [
-           "Unity",
+            "Unity",
             "JavaScript",
             "C#"
           ],
@@ -232,7 +232,7 @@
           "name": "C端APP/C端微信/其他",
           "description": [
             "结合`MUI`/`Ant-Mobile`、封装常用组件，还原设计稿",
-            "参与家政加APP、家政管理端、Arena的H5应用、部分媒体站开发（`React`、`Vue`），负责部分前端工作"
+            "参与家政加APP、家政管理端、Arena的H5应用、部分媒体站开发（`React`），负责部分前端工作"
           ],
           "stack": [
             "JavaScript",
@@ -262,7 +262,7 @@
           "summary": "`ECMAScript`（`JavaScript`）",
           "description": [
             "熟悉 `ECMAScript`（`JavaScript`）及新标准",
-            "熟练主流的JavaScript库/框架（`Jquery`,`React`等）",
+            "熟悉主流的JavaScript库/框架（`Jquery`,`React`等）",
             "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准",
             "了解常见的 Web API **兼容性**问题及其解决方案"
           ]

@@ -3,15 +3,15 @@ mixin phone(number)
 
 mixin email(addr)
   li.contact-email&attributes(attributes)
-    a(href="mailto://" + addr)= addr
+    a(href="mailto://" + addr target='_blank')= addr
 
 mixin sinaweibo(data)
   li.contact-sinaweibo&attributes(attributes)
-    a(href=data.url)= data.id
+    a(href=data.url target='_blank')= data.id
 
 mixin github(data)
   li.contact-github&attributes(attributes)
-    a(href="https://github.com/" + data.id)= "https://github.com/" + data.id
+    a(href="https://github.com/" + data.id target='_blank')= "https://github.com/" + data.id
 
 mixin blog(data)
   li.contact-blog&attributes(attributes)
@@ -71,7 +71,7 @@ mixin skills_backend(item)
 
 
 mixin skills_miscellaneous(item)
-    ul.skills-description.skills-miscellaneous.timeline-content
+    ul.skills-description.skills-miscellaneous.skills-miscellaneous2.timeline-content
       each desc in item.item
         li.skills-item-description
           span!= highlight(desc)
@@ -81,10 +81,16 @@ mixin experience_title_job(item)
   span.experience-place= item.place
   time.experience-time #{item.start} ~ #{item.end}
 
-mixin experience_content_job(item)
+mixin experience_content_job2(item)
   dt.experience-position= item.name + experience_type[item.type]
   each desc in item.description
     dd.experience-task!= highlight(desc)
+
+mixin experience_content_job(item)
+  each listItem in item.list
+    dt.experience-position= listItem.name + experience_type[item.type]
+    each desc in listItem.description
+      dd.experience-task!= highlight(desc)
 
 mixin experience_title_internship(item)
   +experience_title_job(item)
@@ -93,15 +99,18 @@ mixin experience_content_internship(item)
   +experience_content_job(item)
 
 mixin experience_title_project(item)
-  span.experience-project-type= project_type[item.project_type]
+  span.experience-project-type=item.place || project_type[item.project_type]
   span.experience-title-aside
     if item.source
       a.experience-project-link(href=item.source)= dict.source_code
     if item.demo
-        a.experience-project-link(href=item.demo)= dict.demo
+        a.experience-project-link(href=item.demo target='_blank')= dict.demo
 
 mixin experience_content_project(item)
 
   dt.experience-project-name= item.name
   each desc in item.description
-    dd.experience-task!= highlight(desc)
+    if desc=="-"
+      dd.experience-line
+    else
+      dd.experience-task!= highlight(desc)
