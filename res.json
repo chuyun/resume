@@ -263,7 +263,6 @@
           "description": [
             "熟悉 `ECMAScript`（`JavaScript`）及新标准",
             "熟悉主流的JavaScript库/框架（`Jquery`,`React`等）",
-            "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准",
             "了解常见的 Web API **兼容性**问题及其解决方案"
           ]
         },

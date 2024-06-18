@@ -88,7 +88,13 @@ mixin experience_content_job2(item)
 
 mixin experience_content_job(item)
   each listItem in item.list
-    dt.experience-position= listItem.name + experience_type[item.type]
+    dt.experience-position
+      span=listItem.name + experience_type[item.type]
+      span.pl10
+          if listItem.source
+            a.experience-project-link.normal(href=listItem.source)= dict.source_code
+          if listItem.demo
+            a.experience-project-link.normal(href=listItem.demo target='_blank')= dict.demo
     each desc in listItem.description
       dd.experience-task!= highlight(desc)
 

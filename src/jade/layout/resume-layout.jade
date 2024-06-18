@@ -13,7 +13,8 @@ block header
       +responsive("qrcode", contact.wechat, "invisible-lt-sm visible-print")
     section.title
       h1= name
-      h2= job_description.join("/")
+      each desc in job_description
+        h3= desc
     address
       ul.contact
         each item, key in contact
@@ -27,16 +28,11 @@ block content
       block language
       block projects
     article.column-6.last.column
-      block experience
       block skills
+      block experience1
   article.content.row
-    article.column-6.first.column
-      block skills2
-
-    article.column-6.last.column
-      block skills3
-
-
+    block experience
+    block skills3
 
 
 block footer

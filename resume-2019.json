@@ -1,0 +1,332 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "",
+  "resume_title": "张俊操 - 个人简历",
+  "name": "张俊操",
+  "repo": "",
+  "job_description": [
+    "Web前端工程师"
+  ],
+  "contact": {
+    "email": "info_together@aliyun.com",
+    "wechat": {
+      "id": "wx_juncao 17625911022",
+      "qrcode": "static/wechat.svg"
+    },
+    "sinaweibo": {
+      "id": "楚韵江南V5",
+      "url": "http://weibo.com/234600144"
+    },
+    "github": {
+      "id": "chuyun"
+    },
+    "blog": {
+      "url": "https://www.juncao.cc"
+    }
+  },
+  "links": [
+    {
+      "type": "json",
+      "url": "resume.json"
+    },
+    {
+      "type": "repo",
+      "url": "https://www.juncao.cc"
+    },
+    {
+      "type": "pdf",
+      "url": "resume-201812.pdf"
+    }
+  ],
+  "education": [
+    {
+      "type": "undergraduate",
+      "name": "江南大学",
+      "major": "数字媒体技术",
+      "start": "2013",
+      "end": "2017",
+      "honor": [
+        "主修 **数字媒体技术** 相关方向（Code + Design）",
+        "`中共党员`",
+        "获  **国家励志奖学金**  2次 及 其他各项奖学金 多次"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "type": "internship",
+      "techtype": "frontend",
+      "place": "本科在校期间",
+      "start": "2013.09",
+      "end": "2017.07",
+      "list": [
+        {
+          "name": "同态加密域数据的加密与隐藏",
+          "description": [
+            "`同态加密域图像可逆数据隐藏`技术探究及`算法实现`"
+          ],
+          "stack": [
+            "java"
+          ]
+        },
+        {
+          "name": "信息可视化（区域住院记录）",
+          "description": [
+            "将大数据集，分析流行病传播的表现和特征",
+            "综合运用 `Processing`、`MATLAB` 实现可视化结果"
+          ],
+          "stack": [
+            "processing",
+            "matlab"
+          ]
+        },
+        {
+          "name": "第一人称射击游戏（Unity）",
+          "description": [
+            "使用`Unity`游戏开发引擎,搭建场景、建模、添加AI"
+          ],
+          "stack": [
+            "Unity",
+            "JavaScript",
+            "C#"
+          ],
+          "compatibility": "Mac、Windows"
+        },
+        {
+          "name": "网上书城项目",
+          "description": [
+            "基于`React`、`Mobx`、`Express`、`MongoDB`等实现"
+          ],
+          "stack": [
+            "React",
+            "Mobx",
+            "React-router",
+            "NodeJS",
+            "Express",
+            "MongoDB"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "project",
+      "techtype": "frontend",
+      "place": "Electron 跨平台应用",
+      "project_type": "personal",
+      "name": "QReader（Electron）",
+      "demo": "https://www.juncao.cc/article/B1W_TXsQX",
+      "source": "https://github.com/chuyun/QReader",
+      "description": [
+        "基于 `Electron` 的二维码识别与解析软件"
+      ],
+      "stack": [
+        "Electron",
+        "node-webkit",
+        "JavaScript",
+        "css"
+      ],
+      "compatibility": "MacOS、Windows、Linux"
+    },
+    {
+      "type": "project",
+      "techtype": "frontend",
+      "place": "小程序",
+      "project_type": "personal",
+      "name": "RssFeed（微信小程序）",
+      "demo": "https://www.juncao.cc/project/rssfeed",
+      "description": [
+        "介绍: 基于`微信小程序` & `wepy`实现的`RSS阅读器`",
+        "基于`NodeJs`、`Koa2`、`MongoDB`等实现后端API",
+        "项目不断迭代中，目前累计用户 2.3K+"
+      ],
+      "stack": [
+        "微信小程序",
+        "wepy",
+        "Node.js",
+        "Koa2",
+        "Redux",
+        "React-Router",
+        "MongoDB",
+        "Pug"
+      ],
+      "compatibility": "微信"
+    },
+    {
+      "type": "project",
+      "techtype": "frontend",
+      "place": "个人博客（CMS）",
+      "project_type": "personal",
+      "name": "博客搭建",
+      "demo": "https://www.juncao.cc/",
+      "description": [
+        "基于`Hexo`搭建个人静态博客",
+        "使用`Travis CI`进行自动化`构建`、`部署`",
+        "-",
+        "基于`NodeJS`、`Koa2`、`Pug`、`MongoDB`等搭建",
+        "使用`React`、`Redux`、`React-Router`等实现管理端",
+        "博客的`SEO优化`、`UX优化`、`速度优化`、`兼容性调试`",
+        "部分功能扩展，错误监控、微信/邮件实时通知等",
+        "-",
+        "后期考虑引入模板切换、组件替换等扩展功能",
+        "为集成多种图表、在`NPM`上发布集成了chart.js、echarts等多种图表的`markdown-it-charts`插件"
+      ],
+      "stack": [
+        "Node.js",
+        "Koa2",
+        "Redux",
+        "React-Router",
+        "MongoDB",
+        "Pug"
+      ],
+      "compatibility": "IE8+"
+    }
+  ],
+  "experience": [
+    {
+      "type": "internship",
+      "techtype": "frontend",
+      "place": "江苏千米网络科技 & 江苏斑马软件",
+      "start": "2017.02",
+      "end": "至今",
+      "list": [
+        {
+          "name": "魔方建站",
+          "description": [
+            "借助`React`组件化思想让用户可以编辑、发布网站",
+            "拆分可复用组件、编写组件的业务逻辑，完成模板",
+            "完成模板的打包、测试、上线，UX调整等",
+            "难点:封装`高阶组件`&处理用户意外操作带来的BUG"
+          ],
+          "stack": [
+            "React",
+            "axios",
+            "JQuery"
+          ],
+          "compatibility": "IE8+"
+        },
+        {
+          "name": "企业建站 && 维护",
+          "description": [
+            "使用`EmpireCMS`/`JEECMS`等工具搭建企业站点",
+            "CMS系统的日常维护、`调优`、`SEO优化`、`活动页`"
+          ],
+          "stack": [
+            "html",
+            "css",
+            "PHP",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "微信小程序",
+          "description": [
+            "参与`小程序开发`（速兑、嘻里嘻里、法宝护航等等）",
+            "负责小程序的后期优化等工作"
+          ],
+          "stack": [
+            "JavaScript",
+            "微信小程序"
+          ]
+        },
+        {
+          "name": "C端APP/C端微信/其他",
+          "description": [
+            "结合`MUI`/`Ant-Mobile`、封装常用组件，还原设计稿",
+            "参与家政加APP、家政管理端、Arena的H5应用、部分媒体站开发（`React`），负责部分前端工作"
+          ],
+          "stack": [
+            "JavaScript",
+            "React",
+            "Less",
+            "Sass",
+            "Post-CSS",
+            "Jquery"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "type": "frontend",
+      "item": [
+        {
+          "summary": "`HTML` / `CSS`",
+          "description": [
+            "能够编写语义化的 `HTML`，模块化的 `CSS`",
+            "熟悉标准化的 `HTML5` / `CSS3` 新特性",
+            "熟悉常见的CSS框架（Bootstrap等）",
+            "熟悉页面`响应式`开发、`性能优化`、`兼容性`"
+          ]
+        },
+        {
+          "summary": "`ECMAScript`（`JavaScript`）",
+          "description": [
+            "熟悉 `ECMAScript`（`JavaScript`）及新标准",
+            "熟悉主流的JavaScript库/框架（`Jquery`,`React`等）",
+            "了解常见的 Web API 兼容性问题及其解决方案"
+          ]
+        },
+        {
+          "summary": "`微信小程序`",
+          "description": [
+            "熟悉小程序的开发流程，能完整的开发小程序",
+            "个人小程序 `RssFeed` 获得 `知晓程序精品推荐`"
+          ]
+        },
+        {
+          "summary": "前端工程实践",
+          "description": [
+            "掌握 `HTML` / `CSS` / `JavaScript` 语言",
+            "了解常用的框架`React`等及前端 `MV*` 模型",
+            "熟悉 `jQuery` / `Bootstrap` 的使用, 阅读过部分源代码",
+            "`Less` / `Sass` / `Stylus` / `Post-CSS` 等预/后处理工具",
+            "日常使用 `Gulp` 改进工作流、提高工作效率",
+            "熟悉`Webpack`的常用打包配置，针对性`打包优化`",
+            "对前端工程化有一定实践，掌握`前端构建`、`部署`流程",
+            "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills2": [
+    {
+      "type": "backend",
+      "item": [
+        {
+          "summary": "`Node.js`",
+          "description": [
+            "能够使用 `Node.js` 搭建基本的后端程序",
+            "了解异步 I/O 及事件驱动的服务器模型，掌握常见的 **异步编程** 解决方案",
+            "使用`NodeJs`、`Koa2`、`Express`、`MongoDB`搭建过博客项目、小程序接口等项目",
+            "在Linux上通过`nodemon`、`pm2`、`jenkins`做项目部署",
+            "熟悉简单的 `Nginx` 配置，能搭建简单的Web服务器",
+            "使用 `Let’s Encrypt` 、`Nginx` 实现全站Https升级",
+            "了解 `HTTP`、 `TCP/IP`、 `WebSocket` 等协议",
+            "了解一点`Docker`,后期尝试用 Docker 部署项目"
+          ]
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "type": "miscellaneous",
+      "item": [
+        "五年 `MacOS` 使用经验，熟悉常用命令与配置",
+        "能够使用 `Markdown` 编写得体的文档或论文，具备良好的技术交流能力",
+        "日常使用 `Webstorm` 与 `VsCode` / `Xcode` 进行开发，乐于尝试新工具",
+        "能够使用 `Sketch` / `Photoshop` 完成切图和简单设计",
+        "对 UX 有一定的研究，对提高用户体验有一定的见解",
+        "对数字媒体技术方向的技术有较多的了解",
+        "具备良好的责任心，较强的学习能力",
+        "积极接触新的技术、并能将其整合到项目中",
+        "热爱前端开发，也热爱一切美好的事物",
+        "在线简历:`https://pic.juncao.cc/resume/index.html`"
+      ]
+    }
+  ]
+}
+
+

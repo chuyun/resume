@@ -40,6 +40,15 @@ block experience
         dl.experience-description.timeline-content
           +#{"experience_content_" + item.type}(item)
 
+block experience1
+  +section("experience", true)
+    each item in experience1
+     li.timeline-item(class="experience-" + item.type)
+        h3.timeline-title
+          +#{"experience_title_" + item.type}(item)
+        dl.experience-description.timeline-content
+          +#{"experience_content_" + item.type}(item)
+
 
 block skills
   +section("skills", true)
@@ -50,13 +59,13 @@ block skills
         +#{"skills_" + item.type}(item)
 
 
-block skills2
-  +section("skills", true)
-    each item in skills2
-      li.timeline-item(class="skills-" + item.type)
-        h3.timeline-title
-          span.skills-type= skill_type[item.type]
-        +#{"skills_" + item.type}(item)
+//block skills2
+//  +section("skills", true)
+//    each item in skills2
+//      li.timeline-item(class="skills-" + item.type)
+//        h3.timeline-title
+//          span.skills-type= skill_type[item.type]
+//        +#{"skills_" + item.type}(item)
 
 block skills3
   +section("about", true)
@@ -75,5 +84,5 @@ block links
 
 block repo
   p
-    | This resume is generated with Gulp, Less and Jade by 
-    | #[a(href="https://www.juncao.cc" target='_blank') ONE 中无一].
+    | This resume is powered by &nbsp;
+    | #[a(href="https://www.juncao.cc" target='_blank') chuyun].

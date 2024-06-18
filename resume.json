@@ -1,17 +1,18 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "",
-  "resume_title": "张俊操 - 个人简历",
+  "resume_title": "张俊操(前端工程师) - 个人简历",
   "name": "张俊操",
   "repo": "",
   "job_description": [
-    "Web前端工程师"
+    "求职意向：前端工程师",
+    "工作经验：7 年前端工作"
   ],
   "contact": {
     "email": "info_together@aliyun.com",
     "wechat": {
       "id": "wx_juncao 17625911022",
-      "qrcode": "static/wechat.svg"
+      "qrcode": "static/wechat.jpg"
     },
     "sinaweibo": {
       "id": "楚韵江南V5",
@@ -26,16 +27,12 @@
   },
   "links": [
     {
-      "type": "json",
-      "url": "resume.json"
-    },
-    {
       "type": "repo",
       "url": "https://www.juncao.cc"
     },
     {
       "type": "pdf",
-      "url": "resume-201812.pdf"
+      "url": "resume.pdf"
     }
   ],
   "education": [
@@ -46,9 +43,9 @@
       "start": "2013",
       "end": "2017",
       "honor": [
-        "主修 **数字媒体技术** 相关方向（Code + Design）",
-        "`中共党员`",
-        "获  **国家励志奖学金**  2次 及 其他各项奖学金 多次"
+        "主修 **数字媒体技术** 相关方向（艺工结合）",
+        "政治面貌：`中共党员`",
+        "获  **国家励志奖学金 2 次** 及 其他各项奖学金 多次"
       ]
     }
   ],
@@ -56,24 +53,24 @@
     {
       "type": "internship",
       "techtype": "frontend",
-      "place": "本科在校期间",
+      "place": "在校期间",
       "start": "2013.09",
       "end": "2017.07",
       "list": [
         {
-          "name": "同态加密域数据的加密与隐藏",
+          "name": "同态加密域数据的加密与隐藏（科研项目）",
           "description": [
-            "`同态加密域图像可逆数据隐藏`技术探究及`算法实现`"
+            "`同态加密域图像可逆数据隐藏`技术探究及算法实现"
           ],
           "stack": [
             "java"
           ]
         },
         {
-          "name": "信息可视化（区域住院记录）",
+          "name": "医学数据信息可视化（科研项目）",
           "description": [
-            "将大数据集，分析流行病传播的表现和特征",
-            "综合运用 `Processing`、`MATLAB` 实现可视化结果"
+            "基于区域住院记录数据，研究流行病传播的动态和特征",
+            "综合运用 `MATLAB`、`Processing` 实现可视化结果"
           ],
           "stack": [
             "processing",
@@ -83,19 +80,19 @@
         {
           "name": "第一人称射击游戏（Unity）",
           "description": [
-            "使用`Unity`游戏开发引擎,搭建场景、建模、添加AI"
+            "使用 `Unity` 引擎开发的第一人称射击游戏"
           ],
           "stack": [
-           "Unity",
+            "Unity",
             "JavaScript",
             "C#"
           ],
           "compatibility": "Mac、Windows"
         },
         {
-          "name": "网上书城项目",
+          "name": "在线书城（毕业设计）",
           "description": [
-            "基于`React`、`Mobx`、`Express`、`MongoDB`等实现"
+            "基于`React`、`Node`、`MongoDB`等实现的网上书城"
           ],
           "stack": [
             "React",
@@ -109,93 +106,103 @@
       ]
     },
     {
-      "type": "project",
+      "type": "internship",
       "techtype": "frontend",
-      "place": "Electron 跨平台应用",
-      "project_type": "personal",
-      "name": "QReader（Electron）",
-      "demo": "https://www.juncao.cc/article/B1W_TXsQX",
-      "source": "https://github.com/chuyun/QReader",
-      "description": [
-        "基于 `Electron` 的二维码识别与解析软件"
-      ],
-      "stack": [
-        "Electron",
-        "node-webkit",
-        "JavaScript",
-        "css"
-      ],
-      "compatibility": "MacOS、Windows、Linux"
-    },
-    {
-      "type": "project",
-      "techtype": "frontend",
-      "place": "小程序",
-      "project_type": "personal",
-      "name": "RssFeed（微信小程序）",
-      "demo": "https://www.juncao.cc/project/rssfeed",
-      "description": [
-        "介绍: 基于`微信小程序` & `wepy`实现的`RSS阅读器`",
-        "基于`NodeJs`、`Koa2`、`MongoDB`等实现后端API",
-        "项目不断迭代中，目前累计用户 2.3K+"
-      ],
-      "stack": [
-        "微信小程序",
-        "wepy",
-        "Node.js",
-        "Koa2",
-        "Redux",
-        "React-Router",
-        "MongoDB",
-        "Pug"
-      ],
-      "compatibility": "微信"
-    },
-    {
-      "type": "project",
-      "techtype": "frontend",
-      "place": "个人博客（CMS）",
-      "project_type": "personal",
-      "name": "博客搭建",
-      "demo": "https://www.juncao.cc/",
-      "description": [
-        "基于`Hexo`搭建个人静态博客",
-        "使用`Travis CI`进行自动化`构建`、`部署`",
-        "-",
-        "基于`NodeJS`、`Koa2`、`Pug`、`MongoDB`等搭建",
-        "使用`React`、`Redux`、`React-Router`等实现管理端",
-        "博客的`SEO优化`、`UX优化`、`速度优化`、`兼容性调试`",
-        "部分功能扩展，错误监控、微信/邮件实时通知等",
-        "-",
-        "后期考虑引入模板切换、组件替换等扩展功能",
-        "为集成多种图表、在`NPM`上发布集成了chart.js、echarts等多种图表的`markdown-it-charts`插件"
-      ],
-      "stack": [
-        "Node.js",
-        "Koa2",
-        "Redux",
-        "React-Router",
-        "MongoDB",
-        "Pug"
-      ],
-      "compatibility": "IE8+"
+      "start": "2017.01",
+      "end": "至今",
+      "place": "开源项目",
+      "list": [
+        {
+          "name": "ChatGo - AI 智能对话",
+          "demo": "https://www.raycast.com/DDDDesign/chatgo",
+          "description": [
+            "基于 `ChatGo` `JavaScript` 开发的 `Raycast` 效率插件"
+          ],
+          "stack": [
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "QReader - Electron 跨平台应用",
+          "source": "https://github.com/chuyun/QReader",
+          "description": [
+            "基于 `Electron` 的二维码识别与解析软件"
+          ],
+          "stack": [
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Taro-plugin-Canvas",
+          "source": "https://github.com/chuyun/taro-plugin-canvas",
+          "description": [
+            "基于 `Taro` 框架的微信小程序 Canvas 绘图组件",
+            "`曾获 Taro 官方推荐的社区组件`"
+          ],
+          "stack": [
+            "Taro",
+            "JavaScript",
+            "微信小程序"
+          ]
+        },
+        {
+          "name": "TaroTimerManager",
+          "source": "https://github.com/chuyun/taro-timer-manager",
+          "description": [
+            "`Taro` 定时器管理器，减少内存泄漏的风险"
+          ],
+          "stack": [
+            "Taro",
+            "JavaScript",
+            "微信小程序"
+          ]
+        },
+        {
+          "name": "markdown-it-charts",
+          "source": "https://github.com/chuyun/markdown-it-charts",
+          "description": [
+            "markdown-it 的 JavaScript 图表插件"
+          ],
+          "stack": [
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "RssFeed小程序",
+          "description": [
+            "基于`微信小程序` & `wepy 框架` 实现的 `RSS阅读器`",
+            "基于`NodeJs`、`Koa2`、`MongoDB`等实现后端API",
+            "`曾获爱范儿-知晓程序精品小程序应用推荐`",
+            "截止 2021 年底累计用户 3.5K+（目前已下线）"
+          ],
+          "stack": [
+            "微信小程序",
+            "wepy",
+            "Node.js",
+            "Koa2",
+            "Redux",
+            "React-Router",
+            "MongoDB",
+            "Pug"
+          ],
+          "compatibility": "微信"
+        }
+      ]
     }
   ],
-  "experience": [
+  "experience1": [
     {
       "type": "internship",
       "techtype": "frontend",
       "place": "江苏千米网络科技 & 江苏斑马软件",
       "start": "2017.02",
-      "end": "至今",
+      "end": "2018.12",
       "list": [
         {
           "name": "魔方建站",
           "description": [
-            "借助`React`组件化思想让用户可以编辑、发布网站",
-            "拆分可复用组件、编写组件的业务逻辑，完成模板",
-            "完成模板的打包、测试、上线，UX调整等",
-            "难点:封装`高阶组件`&处理用户意外操作带来的BUG"
+            "借助 `React` 组件化让用户可以自由的编辑发布网站",
+            "拆分可复用组件、编写组件的业务逻辑，开发模板"
           ],
           "stack": [
             "React",
@@ -207,8 +214,8 @@
         {
           "name": "企业建站 && 维护",
           "description": [
-            "使用`EmpireCMS`/`JEECMS`等工具搭建企业站点",
-            "CMS系统的日常维护、`调优`、`SEO优化`、`活动页`"
+            "使用 `EmpireCMS`/`JEECMS` 等工具搭建企业站点",
+            "CMS系统的日常维护、`调优`、`SEO优化`、`运营活动`"
           ],
           "stack": [
             "html",
@@ -220,8 +227,7 @@
         {
           "name": "微信小程序",
           "description": [
-            "参与`小程序开发`（速兑、嘻里嘻里、法宝护航等等）",
-            "负责小程序的后期优化等工作"
+            "`小程序开发`（速兑、嘻里嘻里、法宝护航等）"
           ],
           "stack": [
             "JavaScript",
@@ -231,8 +237,8 @@
         {
           "name": "C端APP/C端微信/其他",
           "description": [
-            "结合`MUI`/`Ant-Mobile`、封装常用组件，还原设计稿",
-            "参与家政加APP、家政管理端、Arena的H5应用、部分媒体站开发（`React`、`Vue`），负责部分前端工作"
+            "结合 `MUI`/`Ant-Mobile` 、封装常用组件",
+            "参与家政加 APP、家政管理端、Arena 的 H5 应用、部分媒体站开发（`React`）"
           ],
           "stack": [
             "JavaScript",
@@ -246,65 +252,139 @@
       ]
     }
   ],
-  "skills": [
+  "experience": [
     {
-      "type": "frontend",
-      "item": [
+      "type": "internship",
+      "techtype": "frontend",
+      "place": "新华智云科技有限公司（前端-架构师）",
+      "start": "2019.01",
+      "end": "2024.06",
+      "list": [
         {
-          "summary": "`HTML` / `CSS`",
+          "name": "Magic智能生产平台（产品）",
           "description": [
-            "能够编写语义化的 `HTML`，模块化的 `CSS`",
-            "熟悉标准化的 `HTML5` / `CSS3` 新特性",
-            "熟悉页面`响应式`开发、`性能优化`、`兼容性`"
+            "负责 Magic 智能生产平台（Sass服务）`日常迭代`; `虚拟主播编辑器`、`会员`、`交易中心`、`充值`等模块开发",
+            "基于 `qiankun` 的`微前端`技术改造（负责微前端的架构设计及拆分）",
+            "`沉淀并输出基础组件`，如脚手架、基础组件库、富文本编辑器、多音字编辑器等"
+          ],
+          "stack": [],
+          "compatibility": ""
+        },
+        {
+          "name": "新华社智能化编辑部",
+          "description": [
+            "基于人工智能+大数据，为新闻生产的选、采、编、审发全流程赋能，实现智能化新闻平台",
+            "`担任前端负责人`，负责整个项目前端部分及相关的架构、功能设计及功能开发"
+          ],
+          "stack": []
+        },
+        {
+          "name": "江西省媒体传播平台、江苏省江宁小微融媒体中心平台等",
+          "description": [
+            "`担任前端负责人`，负责省级的融媒体传播平台的采编发全流程功能开发",
+            "开发微信小程序端，便于传播平台的数据采集和实时审核等"
+          ],
+          "stack": []
+        },
+        {
+          "name": "一录（产品）",
+          "description": [
+            "`一录小程序(累计用户65W+)`， 主要服务于景区和展馆，为用户提供导览服务和VLOG服务",
+            "`声音照相馆小程序(2020年累计用户11W+)，春节期间多次获新华社公众号推荐`",
+            "小程序`基础设施建设`（能力层面的封装、`手绘地图`、`微信小程序全链路日志监控`、AR能力、Request封装、`小程序码中心化管理方案`、`BFF层建设`、小程序实用工具模块提升开发测试效率、`AlphaVideoPlayer4WechatMiniapp`等）",
+            "一录景区预约平台、文旅管控台等配套设施的开发建设",
+            "其他小程序开发（景区管理助手、乐游富阳等）",
+            "桌面级 `AR功能开发`（支持数字藏品、数字人、看车等通用场景；AR邀请函、AR明信片；AR孔明灯; AR数字人对话）; 良渚莫角山AR的相关开发支持;"
+          ],
+          "stack": []
+        },
+        {
+          "name": "霞客游（壮游家）(产品)",
+          "demo": "https://vlog-zhuangyou.shuwen.com/shuyou/app/botchat?mentorId=7",
+          "description": [
+            "使用 `Taro3` 开发的微信小程序，基于`大模型的多模态对话`， 借助人工智能技术给用户提供更加智能的伴游产品"
+          ],
+          "stack": []
+        },
+        {
+          "name": "数字文化操作系统（产品）",
+          "demo": "https://gewu.shuwen.com/",
+          "description": [
+            "参与`数字化文化操作系统`（格物、景区管理及传播系统、MGC电视台、研学系统）建设",
+            "`一系列的文化数字化展项`开发（浙江文学馆、江西滕王阁、浙江一系列诗路文化带智慧化展馆）",
+            "`线上线下入画产品的开发`与支持; `数字化展馆的智能化监控建设`"
+          ],
+          "stack": []
+        },
+        {
+          "name": "Sentry监控平台",
+          "description": [
+            "负责 `Sentry 拆分部署`、维护及`相关体系建设`，并在全公司推广使用，目前服务于公司各大产品、项目、数字化展馆",
+            "`钉钉单点登录(SSO)`、钉钉通知插件、OSS存储插件、`文旅监控平台全链路集成`; Sentry 小程序 SDK 开源项目共建"
+          ],
+          "stack": []
+        },
+        {
+          "name": "mixscript",
+          "demo": "https://www.juncao.cc/mixscript",
+          "description": [
+            "`mixscript` 旨在打造一个新的 JavaScript 运行环境(Deno)，以脱离浏览器环境实现音视频的处理与创作",
+            "`Rust` 端 Canvas API 的实现; `Deno` 端相关 API 的设计及实现; 支持 Chat.js、antV-F2、ZRender 图表的渲染"
+          ],
+          "stack": []
+        },
+        {
+          "name": "基础设施建设",
+          "description": [
+            "沉淀并输出`基础组件`、`脚手架`等; `构建CI、打包等流程优化`，提升整体的开发效率和开发体验",
+            "`小程序各类组件、方案沉淀`; 探索新技术在现有产品上的落地",
+            "新技术/新基础设施的预研及落地（如：Sentry、FFmpeg + WebAssembly 实现视频的逐帧播放）"
           ]
         },
         {
-          "summary": "`ECMAScript`（`JavaScript`）",
+          "name": "AIGC",
           "description": [
-            "熟悉 `ECMAScript`（`JavaScript`）及新标准",
-            "熟练主流的JavaScript库/框架（`Jquery`,`React`等）",
-            "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准",
-            "了解常见的 Web API **兼容性**问题及其解决方案"
-          ]
-        },
-        {
-          "summary": "`微信小程序`",
-          "description": [
-            "熟悉小程序的开发流程，能完整的开发小程序",
-            "个人小程序 `RssFeed` 获得 `知晓程序精品推荐`"
-          ]
-        },
-        {
-          "summary": "前端工程实践",
-          "description": [
-            "掌握 `HTML` / `CSS` / `JavaScript` 语言",
-            "了解常用的框架`React`等及前端 `MV*` 模型",
-            "熟悉 `jQuery` / `Bootstrap` 的使用, 阅读过部分源代码",
-            "`Less` / `Sass` / `Stylus` / `Post-CSS` 等预/后处理工具",
-            "日常使用 `Gulp` 改进工作流、提高工作效率",
-            "熟悉`Webpack`的常用打包配置，针对性`打包优化`",
-            "对前端工程化有一定实践，掌握`前端构建`、`部署`流程",
-            "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
+            "推动 `Stable Diffusion`、 `Midjourney` 等AI技术在文旅业务场景下的智能化升级（已大幅提高数字内容的生产效率）",
+            "Stable Diffusion 的 `Lora 模型训练`，训练了一些针对公司文旅业务场景下常用的 Lora 模型",
+            "SD、ComfyUI、MJ 的模板化封装，集成到现有的生产链路; 推动 TouchDesigner、Unity 等互动展项接入 SD"
           ]
         }
       ]
     }
   ],
-  "skills2": [
+  "skills": [
+    {
+      "type": "frontend",
+      "item": [
+        {
+          "summary": "",
+          "description": [
+            "能够编写语义化的 `HTML`，模块化的 `CSS`",
+            "熟悉标准化的 `HTML5` / `CSS3` 新特性",
+            "熟悉 `JavaScript`、`CSS` 语法、常见的前端布局",
+            "熟悉 `React` 开发框架",
+            "熟悉`小程序`的开发流程(`小程序原生`、`Taro`、`Uni-app`)，主导完整开发过多款跨端小程序",
+            "熟悉`Webpack`的常用打包配置，针对性`打包优化`",
+            "对前端工程化有一定实践，掌握`前端构建`、`部署`流程",
+            "掌握基本的前端`响应式开发`、`兼容性处理`、`性能优化`知识与技巧，并能在项目中加以实践",
+            "能够使用 `Sketch` / `Photoshop` / `Figma` 完成切图和简单设计",
+            "对 UX 有一定的研究，对提高用户体验有一定的见解，同时具备良好的技术交流能力",
+            "对数字媒体技术方向的技术有较多的了解",
+            "`AIGC`：了解 `大模型对话`、`Stable Diffusion`、`Midjourney`，有在产品中落地的经验"
+          ]
+        }
+      ]
+    },
     {
       "type": "backend",
       "item": [
         {
-          "summary": "`Node.js`",
+          "summary": "",
           "description": [
-            "能够使用 `Node.js` 搭建基本的后端程序",
+            "了解 Node.js 技术及生态，可以开发基本的后端项目",
             "了解异步 I/O 及事件驱动的服务器模型，掌握常见的 **异步编程** 解决方案",
-            "使用`NodeJs`、`Koa2`、`Express`、`MongoDB`搭建过博客项目、小程序接口等项目",
-            "在Linux上通过`nodemon`、`pm2`、`jenkins`做项目部署",
-            "熟悉简单的 `Nginx` 配置，能搭建简单的Web服务器",
-            "使用 `Let’s Encrypt` 、`Nginx` 实现全站Https升级",
-            "了解 `HTTP`、 `TCP/IP`、 `WebSocket` 等协议",
-            "了解一点`Docker`,后期尝试用 Docker 部署项目"
+            "使用 `Node.js`、`Koa2`、`Express`、`MongoDB`搭建过博客项目、小程序接口等项目",
+            "熟悉 Docker、Nginx 熟悉基本的构建部署流程"
           ]
         }
       ]
@@ -314,16 +394,10 @@
     {
       "type": "miscellaneous",
       "item": [
-        "五年 `MacOS` 使用经验，熟悉常用命令与配置",
-        "能够使用 `Markdown` 编写得体的文档或论文，具备良好的技术交流能力",
-        "日常使用 `Webstorm` 与 `VsCode` / `Xcode` 进行开发，乐于尝试新工具",
-        "能够使用 `Sketch` / `Photoshop` 完成切图和简单设计",
-        "对 UX 有一定的研究，对提高用户体验有一定的见解",
-        "对数字媒体技术方向的技术有较多的了解",
-        "具备良好的责任心，较强的学习能力",
-        "积极接触新的技术、并能将其整合到项目中",
-        "热爱前端开发，也热爱一切美好的事物",
-        "在线简历:`https://pic.juncao.cc/resume/index.html`"
+        "具备良好的责任心，乐于自主学习，追求完美",
+        "具备良好的团队协作精神，可以通过自身的技术反推产品功能迭代及提升团队的研发效率",
+        "积极接触新的技术、并能将其整合到项目中，热爱前端开发，也热爱一切美好的事物",
+        "在线简历: <a href='https://pic.juncao.cc/resume/v2/index.html' target='_blank'>https://pic.juncao.cc/resume/v2/index.html</a>"
       ]
     }
   ]
